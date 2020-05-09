@@ -1,4 +1,5 @@
-// arrays arr1[] and arr2[] are two different size of arrays with size as n and m.
+// There are two sorted arrays arr1 and arr2 of size n and m respectively.
+// Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 // created by Swapnil Kant
 // on 09-05-2020
 
