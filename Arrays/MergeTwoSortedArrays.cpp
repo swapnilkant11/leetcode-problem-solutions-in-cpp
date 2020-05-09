@@ -16,4 +16,5 @@ int mergetwosortedarrays(int arr1[], int arr2[], int n, int m){
 }
 
 // Time complexity of the algorithm is O(n+m).
-// Space complexity is O(1).
+// Space complexity of the above algorithm is O(1).
+
