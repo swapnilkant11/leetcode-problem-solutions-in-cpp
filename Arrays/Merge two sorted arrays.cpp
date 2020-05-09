@@ -1,4 +1,4 @@
-// arrays arr1 and arr2 are of different sizes and their size are given as n and m respectively with out using any extra space.
+// Given two sorted arrays, arr1[] and arr2[], the task is to find the median of these sorted arrays, in O(log n + log m) time complexity, when n is the number of elements in the first array, and m is the number of elements in the second array.
 // Created by Swapnil Kant.
 // On 09-05-2020.
 
