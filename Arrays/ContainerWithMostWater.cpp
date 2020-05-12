@@ -5,11 +5,16 @@
 int findmaxareaofwaterstored(int arr[], int n){
   int startpointer = 0;
   int endpointer = n - 1;
+  // variable to store the max water which can be stored.
   int maxarea = INT_MIN;
+  // run a loop till the elements of array do not intersect.
   while(startpointer < lastpointer){
+    // calculate the max area by taking the least height of pillar * thhe distance between them.
     maxarea = max(maxarea, min(arr[startpointer], arr[lastpointer]) * (lastpointer - startpointer));
+    // if the last element of array is greater than the first then, to increase the area value we will move to right in search of any greater height element.
     if(arr[startpointer] < arr[lastpointer])
        startpointer++;
+    // else we will move to left.
     else
        lastpointer++;
   }
