@@ -10,11 +10,15 @@ int medianoftwosortedarrays(int arr1[], int arr2[], int n, int m){
   int m2 = -1;
   // for even sum sized array.
   if((n + m) % 2 == 0){
+      // traverse the sorted array till (n + m) / 2 of the array to find the mid element in case of even sized array.
       for(int count = 0; count <= (n + m) / 2; count++){
+          // if both the arrays have array element present then, check in both arrays to get the sorted element.
 	  if(i != n && j != m)
 	    m1 = (arr1[i] > arr2[j]) ? arr2[j++] : arr1[i++];
+          // if the second array is smaller than first get the element from first array.
 	  else if(i < n)
 	    m1 = arr1[i++];
+          // else get the element from the second array.
 	  else
             m1 = arr2[j++];
       }
@@ -22,6 +26,7 @@ int medianoftwosortedarrays(int arr1[], int arr2[], int n, int m){
   }
   // for odd sum sized array.
   else{
+      // do the same as done for even sized array the only difference is we will have sum of two elements as median.
       for(int count = 0; count <= (n + m) / 2; count++){
 	 m2 = m1;
 	 if(if(i != n && j != m)
