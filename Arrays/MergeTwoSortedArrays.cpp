@@ -5,10 +5,13 @@
 int mergetwosortedarrays(int arr1[], int arr2[], int n, int m){
   for(int i = m - 1; i >= 0; i--){
     int j;
+    // get the last element of the first array because if the last element of array is greatest then, there is no need to shift the element.
     int lastelement = arr1[n - 1];
+    // start comparing the elements from the end of the first array.
     for(j = n - 2; j >= 0 && arr1[j] > arr2[i]; j--)
       arr1[j + 1] = arr1[j];
-    if(j != n - 2 || arr1[j] > arr2[i]){
+    // if the element of first array is not greater we will need to exchange the elements to make the array sorted.
+    if(j != n - 2 || lastelement > arr2[i]){
       arr1[j + 1] = arr2[i];
       arr2[i] = lastelement;
     }
