@@ -27,7 +27,7 @@ string returnshortedtcommonsubsequence(string text1, string text2){
    int j = m;
    while(i > 0 && j > 0){
       if(text1[i - 1] == text2[j - 1]){
-          str += text[i - 1];
+          str += text1[i - 1];
           i--;
           j--;
       }
