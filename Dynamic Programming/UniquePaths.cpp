@@ -6,7 +6,7 @@
 // created by Swapnil Kant
 // on 17-05-2020
 
-int uniquepaths(int arr[][], int row, int col){
+int uniquepaths(int row, int col){
   if(n == 0 && m == 0)
      return 0;
   // allocate space to store the paths.
