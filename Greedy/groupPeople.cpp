@@ -3,6 +3,8 @@
 
 // You can return any solution in any order and the same applies for IDs. Also, it is guaranteed that there exists at least one solution. 
 
+https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
+
 // created by Swapnil Kant
 // on 20-06-2020
 
