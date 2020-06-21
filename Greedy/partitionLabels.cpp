@@ -1,6 +1,8 @@
 // A string S of lowercase English letters is given. We want to partition this string into as many parts as possible so that each letter app
 // ears in at most one part, and return a list of integers representing the size of these parts.
 
+https://leetcode.com/problems/partition-labels/
+
 // created by Swapnil Kant
 // on 20-06-2020
 
