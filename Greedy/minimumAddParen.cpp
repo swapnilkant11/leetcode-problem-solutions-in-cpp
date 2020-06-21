@@ -7,6 +7,8 @@
 // It can be written as (A), where A is a valid string.
 // Given a parentheses string, return the minimum number of parentheses we must add to make the resulting string valid.
 
+https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+
 // created by Swapnil Kant
 // on 21-06-2020
 
