@@ -2,6 +2,8 @@
 // After this process, we have some array B.
 // Return the smallest possible difference between the maximum value of B and the minimum value of B. 
 
+https://leetcode.com/problems/smallest-range-ii/
+
 // Created by Swapnil Kant
 // on 19-06-2020
 
