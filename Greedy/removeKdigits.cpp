@@ -1,6 +1,8 @@
 // Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest 
 // possible.
 
+https://leetcode.com/problems/remove-k-digits/
+
 // created by Swapnil Kant
 // on 19-06-2020
 
