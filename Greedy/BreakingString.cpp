@@ -25,7 +25,7 @@ bool findstringscanbreak(string str1, string str2){
   int b = 0;
   for(int i = 0; i < 26; i++){
       a += A[i];
-      b += A[i];
+      b += B[i];
       if(a > b && count == 1)
         return false;
       if(b > a && count == 2)
