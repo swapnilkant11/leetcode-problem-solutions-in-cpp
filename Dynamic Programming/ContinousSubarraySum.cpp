@@ -1,6 +1,8 @@
 // Given a list of non-negative numbers and a target integer k, write a function to check if the array has a continuous subarray of size at 
 // least 2 that sums up to a multiple of k, that is, sums up to n*k where n is also an integer.
 
+https://leetcode.com/problems/continuous-subarray-sum/
+
 // created by Swapnil Kant 
 // on 17-05-2020
 
@@ -15,14 +17,14 @@ bool continoussum(int arr[], int n, int k){
     sum += arr[i];
     if(k != 0){
       // calulate mod.
-      int modno = sum % k;
-      if(mp.find(modno) != mp.end()){
+      sum = sum % k;
+      if(mp.find(sum) != mp.end()){
         // check for subarray condition.
-        if(i - mp[modno] > 1)
+        if(i - mp[sum] > 1)
            return true;
       }
       else
-        mp[modno] = i;
+        mp[sum] = i;
     }
   }
   return false;
