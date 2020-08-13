@@ -1,4 +1,7 @@
 // Given two strings text1 and text2, return the length of their longest common subsequence.
+
+https://leetcode.com/problems/longest-common-subsequence/
+
 // created by Swapnil Kant.
 // on 14-05-2020
 
