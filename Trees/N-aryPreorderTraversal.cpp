@@ -6,10 +6,11 @@ https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 
 vector<int> ans;
 void PreorderTraversal(TreeNode* root){
+   // if root is NULL
    if(root == NULL)
      return;
    ans.push_back(root->val);
-   for(auto child : children)
+   for(auto child : root->children)
       PreorderTraversal(child);
 }
 
